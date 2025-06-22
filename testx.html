@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>IYA</title>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .iya {
+      font-size: 100px;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      animation: jedag 0.5s infinite alternate ease-in-out,
+                 ajep 1s infinite linear;
+    }
+
+    @keyframes jedag {
+      0%   { transform: scale(1); }
+      100% { transform: scale(1.2); }
+    }
+
+    @keyframes ajep {
+      0%   { margin-left: 0px; }
+      25%  { margin-left: 20px; }
+      50%  { margin-left: 0px; }
+      75%  { margin-left: -20px; }
+      100% { margin-left: 0px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="iya">IYA</div>
+</body>
+</html>
